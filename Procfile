@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app
+web: gunicorn toxic_app:app
