@@ -8,7 +8,6 @@ itsdangerous==2.0.1
 Jinja2==3.0.3
 joblib==0.11
 MarkupSafe==2.0.1
-mkl-random==1.1.1
 mkl-service==2.3.0
 numpy==1.19.2
 scikit-learn==0.21.1
