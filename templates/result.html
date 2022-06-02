@@ -24,7 +24,7 @@ h2 {
   font-weight: bold;
 }
 
-body, html {height: 100%; background-color: #101010; overflow-y: hidden;}
+body, html {height: 100%; background-color: #101010; overflow-y: hidden;background-image: url(../static/auto1.png);}
 
 p {font-family: "Work Sans"; padding-top: 4%; font-size: 4.5rem; margin-bottom: 2%;}
 
@@ -99,11 +99,11 @@ a:hover {
   {{ pred_ins }} <br><br>
   {{ pred_thr }} <br><br>
   {{ pred_ide }}</h3>
-<!-- <h2 class = ftld> Frontotemporal dementia: Negative </h2>  
-<h2 class = subtype> Behavior variant FTD: Negative </h2>
-<h2 class = subtype> Semantic variant FTD: Negative </h2>
-<h2 class = subtype> Progressive nonfluent aphasia (PNFA): Negative </h2>
-<h2 class = alz> Alzheimer's disease: Negative </h2> -->
+  <!-- <div class ="pred_tox">
+    <h3>
+    {{ pred_tox }} 
+    </h3>
+  </div> -->
 <a href = "{{ url_for ('index') }}"><input type = button value = 'Go Back'></a>
 <h3 class = footer> Powered by Pytorch, Flask, and Bootstrap </h3>
 
