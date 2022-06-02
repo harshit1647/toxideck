@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template, url_for, request, jsonify      
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer 
+# from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer 
 import pickle
 import numpy as np
 
@@ -107,7 +107,7 @@ def faq():
 @app.route('/about/')
 def about():
     return render_template('about.html')
-     
+if __name__=="__main__":
 # Server reloads itself if code changes so no need to keep restarting:
-app.run(debug=True)
+    app.run(debug=True)
 
