@@ -104,9 +104,9 @@ def result():
 @app.route('/faq/')
 def faq():
     return render_template('faq.html')
-@app.route('/about/')
-def about():
-    return render_template('about.html')
+# @app.route('/about/')
+# def about():
+#     return render_template('about.html')
 if __name__=="__main__":
 # Server reloads itself if code changes so no need to keep restarting:
     app.run(debug=True)
